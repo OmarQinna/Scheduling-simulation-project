@@ -1,0 +1,6 @@
+proc 1 10
+proc 1 50
+proc 3 80
+idle 50
+proc 2 20
+Done
