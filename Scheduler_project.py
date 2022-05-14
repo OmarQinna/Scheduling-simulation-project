@@ -2,7 +2,7 @@
 from sys import argv
 from dataclasses import dataclass
 
-#argv = ['./final2.py', 'RR', '20', 'input.txt']
+#argv = ['./Scheduler_project.py', 'RR', '20', 'input.txt']
 
 #
 # Defining DataClasses to have custom variables
@@ -15,7 +15,7 @@ class RProc:
 	ArrivalTime: int
 	BurstTime: int
 
-# Data related to each Process in the RoundRobin algorithm
+# Data related to each Process in the priority scheduler algorithm
 @dataclass
 class PProc:
 	Letter: str
